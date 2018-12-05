@@ -87,7 +87,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 50%;
   animation-name: orbit;
   animation-iteration-count: infinite;
@@ -142,19 +142,16 @@ body {
 #mercury .pos {
   left: 50%;
   top: -1px;
-  border: solid 3px red;
 }
 
 #venus .pos {
   left: 50%;
   top: -1px;
-  border: solid 3px red;
 }
 
 #earth .pos {
   left: 50%;
   top: -1px;
-  border: solid 3px red;
 }
 
 /* Planet animation durations */
